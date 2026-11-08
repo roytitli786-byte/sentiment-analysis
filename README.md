@@ -48,4 +48,4 @@ The baseline model achieves strong discriminative performance across standard ev
 - Implemented text tokenization thresholds to manage mixed-sentiment user inputs gracefully (e.g., handling compound statements with mixed pros/cons).
 - Serialized model states using Python's `pickle` utility to separate training computations from application runtime logic.
 -
-[System.IO.File]::WriteAllText(".git/config", "[core]`n`trepositoryformatversion = 0`n`tfilemode = true`n`tbare = false`n`tlogallrefupdates = true`n`tsymlinks = false`n`tignorecase = true`n[remote `"origin`"]`n`turl = https://github.com`n`tfetch = +refs/heads/*:refs/remotes/origin/*`n[branch `"main`"]`n`tremote = origin`n`tmerge = refs/heads/main")
+
